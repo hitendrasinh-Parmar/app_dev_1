@@ -8,6 +8,7 @@ const PopularCardFragment = () => {
   // console.log('[PopularCardFragment]');
   const __s = useStyles();
   const { docprofile2 } = AppIcons;
+
   return (
     <View style={[__s.bgColorWhite, __s.marginR16, __s.borderRadius10, __s.paddingV16]}>
       <ImageFragment imgUrl={docprofile2} imgStyle={[__s.height200, __s.width190]} />
